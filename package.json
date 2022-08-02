@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for websockets",
+  "main": "real-comm-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon real-comm-server.js"
+  },
+  "keywords": [
+    "web",
+    "sockets",
+    "server"
+  ],
+  "author": "tanya",
+  "license": "ISC",
+  "dependencies": {
+    "nodeman": "^1.1.2",
+    "nodemon": "^2.0.19",
+    "ws": "^8.8.0"
+  }
+}
